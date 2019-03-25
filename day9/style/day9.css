@@ -1,0 +1,21 @@
+li{
+    border-bottom: 1px solid red;
+}
+li:last-child{
+    border-bottom: none;
+}
+li:first-child{
+color: #7d7d7d;
+}
+table{
+    margin:  0 auto;
+}
+tr:nth-child(even){
+    background: red;
+}
+tr:nth-child(odd){
+    background: yellow;
+}
+ {
+    background: cornsilk;
+}

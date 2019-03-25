@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css文件/day3作业-2.css">
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>表单注册</legend>
+        <p>
+            <label>姓名：</label>
+            <input type="text" required  placeholder="请输入用户名" autofocus>
+        </p>
+        <p>
+            <label>密码：</label>
+            <input type="password" required placeholder="请输入6~10位密码" maxlength="10">
+        </p>
+        <p>
+            <label>邮箱：</label>
+            <input type="text" required placeholder="请输入你的邮箱" autofocus>
+        </p>
+        <p>
+            <label>性别：</label>
+            <input type="radio" id="man" name="female" checked><label for="man">男</label>
+            <input type="radio" id="girl" name="female"><label for="girl">女</label>
+        </p>
+        <p>
+            <label>地区：</label>
+            <select name="" id="">
+                <option value="BJ">北京</option>
+                <option value="SH">上海</option>
+                <option value="SJK">石家庄</option>
+                <option value="XM" selected>厦门</option>
+            </select>
+
+        </p>
+        <p><label>简介：</label>
+            <textarea name="" cols="21" rows="3" placeholder="你好，html的学习之路"required></textarea>
+        </p>
+        <p>
+            <label>
+                兴趣：
+            </label>
+            <input type="checkbox" name="Interest" value="read" checked>读书
+            <input type="checkbox" name="Interest" value="motion" checked>运动
+            <input type="checkbox" name="Interest" value="eat" checked>吃喝
+        </p>
+        <p>
+            <input type="submit" class="Button">
+            <input type="reset" class="Button">
+        </p>
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,125 @@
+body{
+    width: 100%;
+}
+.main{
+    width: 1204px;
+    margin: 0 auto;
+}
+
+.aaa{
+    padding-top: 35px;
+    padding-bottom: 53px;
+    background: #d5fffb;
+    margin-top: 20px;
+}
+.aaa .left{
+    float: left;
+}
+.aaa .zhongxin{
+    float: left;
+    width: 396px;
+    margin-left: 11px;
+}
+.aaa .zhongxin img:last-child{
+    margin-top: 13px;
+}
+.aaa .zhongxin-2{
+
+}
+.aaa .zhongxin-2 ul{
+    float: left;
+    width: 250px;
+    height: 184px;
+    margin-left: 17px;
+}
+.aaa .zhongxin-2 ul li{
+    width: 250px;
+    height: 184px;
+    position: relative;
+    box-shadow: 2px 2px 4px rgba(2,2,2,.27);
+}
+.aaa .zhongxin-2 ul li:first-child{
+    margin-bottom: 11px;
+}
+.aaa .zhongxin-2 ul li img{
+  width: 100%;
+}
+.aaa .zhongxin-2 ul li .content{
+    width: 250px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.aaa .zhongxin-2 ul li .content .top{
+    width: 100%;
+    background: white;
+}
+.aaa .zhongxin-2 ul li .content .top:hover p{
+    display: block;
+}
+.aaa .zhongxin-2 ul li .content .top p{
+
+    font-size: 12px;
+    color: #9e9d9d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+.aaa .zhongxin-2 ul li .content .top h4{
+    font-size: 14px;
+    line-height: 25px;
+    color: #1e1e1e;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.aaa .zhongxin-2 ul li .content .bot{
+    background:white;
+    line-height: 50px;
+}
+.aaa .zhongxin-2 ul li .content .bot .number-1{
+    font-size: 12px;
+    color: red;
+    margin-left: 15px;
+}
+.aaa .zhongxin-2 ul li .content .bot .number-2{
+    float: right;
+    font-size: 12px;
+    color:#868484 ;
+    margin-right: 15px;
+}
+.aaa .right{
+
+    width: 251px;
+    height: 383px;
+    float: left;
+    margin-left: 19px;
+    position: relative;
+}
+.aaa .right .bbb{
+    background: white;
+    width: 251px;
+    height: 308px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.aaa .right h4{
+    margin:  0 25px;
+ padding-top: 40px;
+    font-size: 14px;
+}
+.aaa .right p{
+    line-height: 42px;
+    margin:  0 25px;
+    font-size: 12px;
+    color: #7b7b7b;
+    border-bottom: 1px solid red;
+}
+.aaa .right  ul li{
+    font-size: 12px;
+    line-height: 30px;
+    margin:  0 25px;
+}
+.aaa .right  ul li:first-child{
+    margin-top: 18px;
+}

@@ -1,0 +1,241 @@
+.main{
+    width: 1080px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+    overflow: hidden;
+    left: 0;
+    top:0;
+}
+header .headerTop{
+    position: absolute;
+    margin-left: 50%;
+    transform: translatex(-50%);
+}
+header .headerTop h1 a{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    background: url("../img/icon-logo.png")no-repeat;
+    width: 116px;
+    height: 60px;
+    background-size: contain;
+    white-space: nowrap;
+    text-indent: 5em;
+    overflow: hidden;
+
+}
+header .headerTop nav{
+    float: right;
+    line-height: 50px;
+    padding:  0 20px;
+}
+header .headerTop nav a{
+    float: left;
+    height: 80px;
+    margin-left: 50px;
+    line-height: 80px;
+    font-size: 16px;
+    color: white;
+}
+header .headerTop nav a:first-child{
+    margin-left: 0;
+}
+.banner{
+    width: 300%;
+}
+header .banner li{
+    height: 762px;
+    float: left;
+    width: 33.33%;
+}
+header .banner ul .banner-1{
+    background: url("../img/hero-bg-7.jpg") no-repeat 50% 50%;
+    /*width: 33.33%;*/
+    background-size: cover;
+}
+.banner ul .banner-2{
+    background: url("../img/hero-bg-5.jpg") no-repeat 50% 50%;
+    /*width: 33.33%;*/
+    background-size: cover;
+}
+.banner ul .banner-3{
+    background: url("../img/hero-bg-8.jpg")  no-repeat 50% 50%;
+    /*width: 33.33%;*/
+    background-size: cover;
+}
+header .btn{
+    position: absolute;
+    left: 10%;
+    top: 33%;
+}
+header .btn h2{
+    font-size: 62px;
+    color: white;
+}
+header .btn a{
+    display: block;
+    width: 290px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+ }
+
+header .headerBotm{
+    /*background: red;*/
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    background-color: rgba(0,0,0,.3);
+
+}
+header .headerBotm p{
+    color: white;
+    line-height: 40px;
+    margin-left: 5em;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+header .headerBotm p::before{
+    content: "NEWS";
+    background: red;
+    line-height: 18px;
+    font-size: 12px;
+    padding: 0 8px;
+   border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section ul li{
+    margin-top: 3px;
+    width: 25%;
+    height: 260px;
+    float: left;
+    border-right: 3px solid white;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+section ul li a{
+    display: block;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+section ul li:last-child{
+    border-right: 0;
+}
+section ul li{
+    background: url("../img/promo-01.jpg")no-repeat;
+    background-size: cover;
+    /*width:100%;*/
+    /*height: 100%;*/
+}
+section ul li:nth-child(2){
+     background: url("../img/promo-02.jpg")no-repeat;
+     background-size: cover;
+     /*width:100%;*/
+     /*height: 100%;*/
+ }
+section ul li:nth-child(3){
+     background: url("../img/promo-03.jpg")no-repeat;
+     background-size: cover;
+     /*width:100%;*/
+     /*height: 100%;*/
+ }
+section ul li:nth-child(4){
+    background: url("../img/promo-04.jpg")no-repeat;
+    background-size: cover;
+    /*width:100%;*/
+    /*height: 100%;*/
+
+}
+
+
+.relative .relative-top{
+    width: 100%;
+    /*height: 100%;*/
+}
+.relative ul {
+    /*float: left;*/
+}
+.relative ul li{
+    width: 33.33%;
+    float: left;
+    padding: 41px 0;
+    box-sizing: border-box;
+}
+
+.relative .wx i{
+    float: left;
+    display: block;
+    background: url("../img/icon-wechat.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+.relative .hb i{
+    float: left;
+    display: block;
+    background: url("../img/icon-rp.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+.relative .wcre i{
+    float: left;
+    display: block;
+    background: url("../img/icon-credit.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+
+.relative .wx .text{
+     float: left;
+ }
+.relative .hb{
+   /*margin-left: 100px;*/
+    padding-left: 100px;
+}
+.relative .wcre{
+     padding-left: 100px;
+ }
+
+
+/*.relative ul{*/
+    /*width: 100%;*/
+
+/*}*/
+/*.relative ul li{*/
+    /*width: 33%;*/
+/*}*/
+/*.relative .wx{*/
+/*}*/

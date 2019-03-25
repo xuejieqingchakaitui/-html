@@ -1,0 +1,69 @@
+/*!*div{*!*/
+    /*!*width: 100px;*!*/
+    /*!*height: 100px;*!*/
+    /*!*background: red;*!*/
+
+/*!*}*!*/
+/*!*p{*!*/
+    /*!*width: 200px;*!*/
+    /*!*height: 200px;*!*/
+    /*!*background: darkviolet;*!*/
+/*!*}*!*/
+/*!*.wrapper{*!*/
+/*!*width: 500px;*!*/
+/*!*background: red;*!*/
+/*!*}*!*/
+
+/*!*.son{*!*/
+/*!*background: brown;*!*/
+/*!*width: 100px;*!*/
+/*!*height: 100px;*!*/
+/*!*float: left;*!*/
+/*!*color: blue;*!*/
+
+/*!*}*!*/
+/*!*.aaa{*!*/
+/*!*width: 100px;*!*/
+/*!*height: 100px;*!*/
+/*!*color: blue;*!*/
+/*!*}*!*/
+
+/*body{*/
+    /*width: 100%;*/
+/*}*/
+/*.header{*/
+    /*width: 1080px;*/
+    /*background: deepskyblue;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*.header ul {*/
+    /*height: 1px;*/
+/*}*/
+/*.header ul li{*/
+    /*float: left;*/
+    /*line-height: 35px;*/
+    /*margin-left: 50px;*/
+/*}*/
+/*.header ul li a{*/
+    /*font-size: 16px;*/
+    /*color: #f7f7f7;*/
+    /*padding: 0 0 5px 0;*/
+
+/*}*/
+/*.header ul li:hover a{*/
+    /*border-bottom:2px solid red;*/
+    /**/
+/*}*/
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(255,0,0,.5);
+    margin: 0 auto;
+    /*background-image: url(../img/icon.png);*/
+    /*background-repeat: no-repeat;*/
+    /*!*background-position:center center ;*!*/
+    /*background-position: 20px 30px;*/
+  background:pink url("../img/icon.png") no-repeat 10px 40px;
+
+
+}

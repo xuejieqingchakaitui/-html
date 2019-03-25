@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wepper{
+    width: 300px;
+    background: mediumslateblue;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+.wepper h3{
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    cursor:pointer
+
+}
+.wepper:hover ul li{
+    display: block;
+}
+.wepper ul li{
+    display: none;
+}
+.wepper ul li{
+    line-height: 30px;
+ font-size: 14px;
+    color: mediumturquoise;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.wepper .aaa p{
+    display: none;
+}
+.wepper h3:hover ~.aaa p{
+    display: block;
+    background: red;
+}
+/*.wepper:hover .aaa p{*/
+    /*display: block;*/
+
+/*}*/

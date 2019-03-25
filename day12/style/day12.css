@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: green;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+
+}
+nav{
+
+    width: 100%;
+    margin-top: 5px;
+}
+nav a{
+    background: darkolivegreen;
+    line-height: 30px;
+    width: 20%;
+    display: inline-block;
+    color: white;
+    text-align: center;
+   border-right: 1px solid white;
+    box-sizing: border-box;
+}
+nav a:last-child{
+    border: none;
+}
+section{
+    background: chocolate;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 5px;
+}
+footer{
+ background: darkmagenta;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 5px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @keyframes move {
+            0%{
+                background-position: 0 0;
+            }
+            100%{
+                background-position: -1600px 0;
+            }
+        }
+        @keyframes move-2 {
+            0%{
+                background-position: 0 0;
+            }
+            100%{
+                background-position: -1600px 0;
+            }
+        }
+        @keyframes move-3 {
+            0%{
+                background-position: 0 0;
+            }
+            100%{
+                background-position: -1360px 0;
+            }
+        }
+        @keyframes move-4 {
+            0%{
+                background-position: 0 0;
+            }
+            100%{
+                background-position: -1680px 0;
+            }
+        }
+        div{
+            width: 200px;
+            height: 180px;
+            background:  url("img/hou.png") no-repeat 0 0;
+            animation: move 1s steps(8) infinite;
+        }
+        .div2{
+            width: 200px;
+            height: 180px;
+            background:  url("img/west_02_47bad19.png") no-repeat 0 0;
+            animation: move-2 1s steps(8) infinite;
+        }
+        .div3{
+            width: 180px;
+            height: 180px;
+            background:  url("img/west_03_f962447.png") no-repeat 0 0;
+            animation: move-3 1s steps(8) infinite;
+        }
+        .div4{
+            width: 200px;
+            height: 180px;
+           background: url("img/ababab.png") no-repeat 0 0;
+            animation: move-4 1s steps(8) infinite;
+        }
+
+    </style>
+</head>
+<body>
+<div></div>
+<div class="div2"></div>
+<div class="div3"></div>
+<div class="div4"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.nav{
+    width: 1080px;
+    background: deepskyblue;
+    padding: 0 20px;
+    margin-left: 50px;
+}
+.nav ul {
+
+}
+.nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: white;
+}

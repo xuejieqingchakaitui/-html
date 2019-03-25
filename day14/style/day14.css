@@ -1,0 +1,326 @@
+.main{
+    max-width:1080px;
+    min-width: 640px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    /*background: red;*/
+}
+header h1{
+    float: left;
+    margin-top: 16px;
+    width: 100px;
+    height: 37px;
+    background: url("../img/icon-logo.png") no-repeat left center;
+    background-size: cover;
+    font-size: 16px;
+    color: transparent;
+}
+header nav{
+    float: right;
+}
+header nav a{
+    padding: 0 20px;
+    color: white;
+}
+
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 762px;
+    overflow: hidden;
+}
+.banner ul {
+    width: 300%;
+}
+.banner ul li{
+    width: 33.3%;
+    height: 762px;
+    float: left;
+    background: url("../img/hero-bg-5.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.banner li:nth-child(2){
+     background-image: url("../img/hero-bg-7.jpg");
+ }
+.banner li:nth-child(3){
+    background-image: url("../img/hero-bg-8.jpg");
+}
+.banner li strong{
+    display: block;
+    font-size: 70px;
+   color: #000;
+    margin-top: 300px;
+}
+.banner .news{
+    width: 100%;
+    background:rgba(0,0,0,.4);
+    padding: 10px 0;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+.banner .news p::before{
+    content:"NEWS";
+    color: white;
+    background: red;
+    padding:  3px 8px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 4px;
+}
+.banner >.main a{
+    position: absolute;
+    bottom: 300px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0,0,0,.6);
+    border-radius: 6px;
+}
+
+.img-box li{
+    border-top: 2px solid white;
+    width: 25%;
+    float: left;
+    height: 260px;
+    padding: 30px;
+    background: url("../img/promo-01.jpg") no-repeat center center;
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+}
+.img-box li+li{
+    border-left: 2px solid white;
+}
+.img-box li a{
+    color: #ffffff;
+}
+.img-box li:nth-child(2){
+    background-image: url("../img/promo-02.jpg");
+}
+.img-box li:nth-child(3){
+    background-image: url("../img/promo-03.jpg");
+}
+.img-box li:nth-child(4){
+     background-image: url("../img/promo-04.jpg");
+ }
+
+/*.artical{*/
+    /*display: flex;*/
+    /*flex-wrap:wrap ;*/
+/*}*/
+.artical li{
+    min-width: 220px;
+    width: 33.33%;
+    float: left;
+}
+.artical li:nth-child(2){
+    text-align: center;
+}
+.artical li:nth-child(3){
+    text-align: right;
+}
+.artical li div{
+    background: url("../img/icon-wechat.png") no-repeat left center;
+    background-size: contain;
+    padding-left: 60px;
+    margin: 45px 0;
+    box-sizing: border-box;
+}
+.artical li:nth-child(2) div{
+    display: inline-block;
+    background-image: url("../img/icon-rp.png");
+}
+.artical li:nth-child(3) div{
+    display: inline-block;
+    background-image: url("../img/icon-credit.png");
+}
+.artical li h3{
+    text-align: left;
+}
+.artical li p{
+    font-weight: lighter;
+}
+.footer-top{
+    margin: 45px 0;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
+
+.footer-top dl{
+    padding: 40px 0;
+     float: left;
+     width: 12.5%;
+ }
+.footer-top dl:nth-child(1){
+    width: 50%;
+}
+.footer-top dl:nth-child(1) dt{
+    width: 160px;
+    height: 37px;
+    background: url("../img/logo-text.svg") no-repeat left center;
+    background-size:contain;
+}
+.footer-top dt{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-top dd{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.footer-bottom{
+    padding: 45px 0;
+    background: url("../img/footer-chengxin.jpg") no-repeat right center;
+    background-size: 40px;
+}
+.footer-bottom p{
+    font-size: 12px;
+    color: #999
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:1080px){
+    .img-box li{
+        width: 25%;
+    }
+    .banner{
+        height: 762px;
+    }
+    .banner li{
+        height: 762px;
+    }
+    .banner li strong{
+        font-size: 70px;
+        margin-top: 300px;
+    }
+    .banner >.main a{
+        bottom: 300px;
+    }
+    .artical li{
+width: 33.3%;
+    }
+    .artical li:nth-child(2){
+    text-align: center;
+    }
+    .artical li:nth-child(3){
+    text-align: right;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:1079px) and (min-width:640px){
+    .img-box li{
+        width: 50%;
+    }
+    .banner{
+        height: 442px;
+    }
+    .banner li{
+        height: 442px;
+    }
+    .banner >.main a{
+        bottom: 100px;
+    }
+    .banner li strong{
+        font-size: 50px;
+        margin-top: 230px;
+    }
+    .artical li{
+width: 50%;
+    }
+    .artical li:nth-child(2){
+    }
+    .artical li:nth-child(3){
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all  and (max-width: 639px){
+    .main{
+        width:100%;
+        /*text-align: center;*/
+    }
+    .img-box li{
+        width: 100%;
+    }
+    .banner{
+        height: 442px;
+    }
+    .banner li{
+        height: 442px;
+    }
+    .banner >.main a{
+        bottom: 100px;
+    }
+    .banner li strong{
+        font-size: 40px;
+        margin-top: 200px;
+    }
+    .artical li{
+width: 100%;
+    }
+    .artical li:nth-child(2){
+        text-align: left;
+    }
+    .artical li:nth-child(3){
+        text-align: left;
+    }
+
+}
+

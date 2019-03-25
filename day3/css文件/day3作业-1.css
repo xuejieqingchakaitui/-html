@@ -1,0 +1,40 @@
+
+p .Code{
+    height: 42px;
+    width: 150px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+p .Obtain{
+     height: 42px;
+    margin-left: 12px;
+    margin-top: 20px;
+    width: 128px;
+    text-align: center;
+    background: #f7f7f7;
+}
+p .Agreement{
+    margin-left: 12px;
+    margin-top: 20px;
+    height: 10px;
+    width: 10px;
+}
+p .Affirming{
+font-size: 12px;
+}
+p .register{
+    height: 42px;
+    width: 370px;
+    background: #4490f7;
+    text-align: center;
+    color: #f7f7f7;
+}
+p input{
+    width: 300px;
+    height: 42px;
+   margin-left: 12px;
+    padding-left: 10px;
+
+    margin-top: 20px;
+}
+

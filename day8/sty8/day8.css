@@ -1,0 +1,107 @@
+/*!*div{*!*/
+    /*!*width: 200px;*!*/
+    /*!*height: 200px;*!*/
+    /*!*background: red;*!*/
+   /*!*position: relative;*!*/
+    /*!*left: 100px;*!*/
+    /*!*top: 100px;*!*/
+/*!*}*!*/
+/*!*p{*!*/
+    /*!*width: 200px;*!*/
+    /*!*height: 200px;*!*/
+    /*!*background: deepskyblue;*!*/
+/*!*}*!*/
+/*!*.div1{*!*/
+    /*!*width: 200px;*!*/
+    /*!*height: 200px;*!*/
+    /*!*background: green;*!*/
+    /*!*position: absolute;*!*/
+    /*!*right: 0px;*!*/
+/*!*}*!*/
+/*.weapper{*/
+    /*!*width: 300px;*!*/
+    /*height: 300px;*/
+    /*background: red;*/
+    /*margin: 0 auto;*/
+    /*position: absolute;*/
+/*}*/
+/*.father{*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*background: palegreen;*/
+    /*!*position: absolute;*!*/
+
+/*}*/
+/*!*.son{*!*/
+    /*!*width: 100px;*!*/
+    /*!*height: 100px;*!*/
+    /*!*background: royalblue;*!*/
+    /*!*position: absolute;*!*/
+    /*!*right: 1px;*!*/
+    /*!*top: 1px;*!*/
+/*!*}*!*/
+/*div{*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*background: red;*/
+    /*position: fixed;*/
+    /*top:50%;*/
+    /*left: 50%;*/
+    /*margin-left: -100px;*/
+    /*margin-top: -100px;*/
+    /*z-index: ;*/
+/*}*/
+.wrapper{
+    width: 500px;
+    height: 500px;
+    border: 10px solid black;
+    position: relative;
+    margin:  0 auto;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+
+
+}
+.wrapper .circle1{
+border: 10px solid deepskyblue;
+
+}
+.wrapper .circle2{
+    border: 10px solid black;
+    left: 130px;
+}
+.wrapper .circle3{
+    border: 10px solid red;
+    left: 260px;
+    z-index: 5;
+}
+.wrapper .circle4{
+    border: 10px solid yellow;
+    top: 70px;
+    left: 70px;
+}
+.wrapper .circle4::after{
+    content: '';
+    position: absolute;
+    left:-10px;
+    top:-10px;
+    display: block;
+    width:100px;
+    height:100px;
+    border:10px solid yellow;
+    border-radius:50%;
+    z-index: 10;
+    border-color: yellow transparent yellow transparent;
+}
+.wrapper .circle5{
+    border: 10px solid green;
+    top: 70px;
+    left: 200px;
+    z-index: 5;
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        /*1、三个元素都设置左浮动,让三个元素在一行显示
+          2、给中间元素设置宽度calccalc(100% - 400px);*/
+        .left,.right{
+            width: 200px;
+            height: 400px;
+            background: red;
+            float: left;
+        }
+        .middle{
+            height: 500px;
+            background: purple;
+            float: left;
+            width: calc(100% - 400px);
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+</div>
+</body>
+</html>

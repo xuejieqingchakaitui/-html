@@ -1,0 +1,14 @@
+.dynamic h1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+.dynamic ul li{
+    margin-top: 8px;
+    margin-left: 35px;
+    line-height: 30px;
+}
+.dynamic ul li span{
+    color: aqua;
+}

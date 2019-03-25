@@ -1,0 +1,12 @@
+@font-face {
+    font-family: myFont;
+    src: url(../soures/iconfont.ttf);
+}
+.icon-santiaoxian::before{
+    font-family: myFont;
+    content: "\e600";
+}
+.icon-shu::before{
+    font-family: myFont;
+    content: "\e62c";
+}
